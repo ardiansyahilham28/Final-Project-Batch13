@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body{
+    background:white;
+    color: black;
+}
+
+.header{
+    background: #31a3d0;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right:4rem;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo:hover{
+    color: rgb(49, 42, 251);
+}
+
+.navbar{
+    padding-right: 140px;
+    
+}
+
+.navbar a {
+    padding-top: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar a.active{
+    color: rgb(47, 20, 224);
+}
+
+#Home {
+    background-image: url(foto.jpg/bg1.jpg);
+    width: 108%;
+    background-position: 7%;
+    background-repeat: no-repeat;
+    margin-left:-40px;
+    text-align: center
+}
+
+#Home p {
+    font-size: 20px;
+    padding-top: 1rem;
+    text-shadow: 0 0 5px black;
+}
+
+.contain{
+    margin-left: 10px;
+    padding-left: 20px;
+}
+img {
+    width: 130px;
+    padding:0 ;
+    margin-top: 9rem;
+    border-color: #00abf0;
+    border-style: solid;
+    border-radius: 100%;
+    box-shadow: 0 0 30px black;
+}
+
+h1{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 50px ;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+
+.btn-box {
+    padding-bottom: 90px;
+}
+
+.btn-box a{
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+
+.btn-box a:hover{
+  background-color: rgb(91, 84, 219);
+  transition: 0.5s;
+}
+
+.sosmed {
+    padding-top: 5px;
+    padding-bottom: 190px;
+}
+.sosmed a {
+    padding: 5px ;
+    padding-top:0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: #00abf0;
+    text-shadow: 0 0 5px blue;
+}
+
+.sosmed :hover{
+    color: rgb(10, 40, 117) ;
+    transition: 0.5s;
+}
+
+.wa {
+    font-size: 80px;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    text-shadow: 0 0 10px black;
+}
+
+.wa :hover {
+    color: rgb(83, 133, 8);
+    transition: 0.5s;
+}
+
+section{
+    margin-left: 9%;
+    margin-right: 9%;
+    text-align: center;
+    
+}
+
+.container {
+    display:inline;
+    justify-content: center;
+    padding: 15px;
+}
+
+h2{
+    align-items: center;
+}
+#About {
+    text-align: justify;
+    background-color: aquamarine;
+    padding-left: 0px;
+    margin-right: 30%;
+}
+
+#experiences{
+    margin-top: 30px;
+    background-color: aqua;
+    text-align: right;
+    direction: rtl;
+    margin-left: 30%;
+    padding: 40px;
+}
+
+#education{
+    margin-top: 30px;
+    background-color: aquamarine;
+    text-align: left;
+    margin-right: 30%;
+}
+
+#skill {
+    margin-top: 30px;
+    background-color: aqua;
+    text-align: right;
+    direction: rtl;
+    margin-left: 30%;
+    padding: 40px;
+}
+
+#interest {
+    margin-top: 30px;
+    background-color: aquamarine;
+    text-align: start;
+    margin-right: 30%;
+}
+
+#awards {
+    margin-top: 30px;
+    background-color: aqua;
+    text-align: right;
+    direction: rtl;
+    margin-left: 30%;
+    padding: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 11, 11);
+    color: white;
+    padding: 40px;
+    margin: 20px;
+}
