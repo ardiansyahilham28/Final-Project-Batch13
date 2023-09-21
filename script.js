@@ -1,4 +1,3 @@
-// Add a smooth scrolling effect for navigation links
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', (event) => {
         event.preventDefault();
@@ -7,10 +6,22 @@ document.querySelectorAll('nav a').forEach(link => {
     });
 });
 
-// Add an interactive project toggle
+
 document.querySelectorAll('.project').forEach(project => {
     const projectLink = project.querySelector('a');
     projectLink.addEventListener('click', () => {
         project.classList.toggle('active');
     });
 });
+
+ //humberger menu
+ const menuToggle = document.querySelector(".menu-toggle");
+ const navbar = document.querySelector(".navbar");
+
+ //event listener untuk tombol hamburger
+ menuToggle.addEventListener("click", function () {
+     // Toggle class "active" pada menu untuk menampilkan/sembunyikan menu
+     navbar.classList.toggle("active");
+ });
+  
+ 
