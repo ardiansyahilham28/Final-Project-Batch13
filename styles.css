@@ -243,16 +243,12 @@ h2 {
   font-size: 24px;
   margin-top: 10px;
   color: #555;
+  display: flex;
+  justify-content: center;
 }
 
-#experiences p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #777;
-}
-
-#experiences img{
-  width: 290px;
+#experiences .container div img{
+  width: 250px;
   height: fit-content;
   padding: 10px 20px;
 }
